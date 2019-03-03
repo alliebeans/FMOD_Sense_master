@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{fded2822-d4dd-4542-a87b-06c7107b54bc}">
+        <property name="name">
+            <value>StartEQ</value>
+        </property>
+        <relationship name="folder">
+            <destination>{7af26e35-7964-4ced-8bd1-acffce3e1dcf}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{28546f14-57c0-47e7-bc0b-6bbdb73ec1fb}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{28546f14-57c0-47e7-bc0b-6bbdb73ec1fb}">
+        <property name="maximum">
+            <value>10</value>
+        </property>
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+        <property name="seekSpeed">
+            <value>3.4999997615814209</value>
+        </property>
+    </object>
+</objects>

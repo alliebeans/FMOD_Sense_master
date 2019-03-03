@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{99137100-78f8-49a1-9be7-9d11db7f0664}">
+        <property name="name">
+            <value>IdleSound</value>
+        </property>
+        <relationship name="folder">
+            <destination>{7af26e35-7964-4ced-8bd1-acffce3e1dcf}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{d4a32b8d-bc05-4310-808a-c3ab064a4232}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{d4a32b8d-bc05-4310-808a-c3ab064a4232}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

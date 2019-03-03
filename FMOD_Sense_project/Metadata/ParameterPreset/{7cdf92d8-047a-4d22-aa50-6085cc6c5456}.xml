@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{7cdf92d8-047a-4d22-aa50-6085cc6c5456}">
+        <property name="name">
+            <value>Menu Timer</value>
+        </property>
+        <relationship name="folder">
+            <destination>{7af26e35-7964-4ced-8bd1-acffce3e1dcf}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{d4d24d21-22dc-46e1-8115-05527ab388e6}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{d4d24d21-22dc-46e1-8115-05527ab388e6}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>
