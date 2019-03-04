@@ -359,6 +359,7 @@
     </object>
     <object class="MixerBusEffectChain" id="{f2618db0-abae-4074-ba7e-9bbfa5cd5571}">
         <relationship name="effects">
+            <destination>{ecff8e46-6bc8-4d0e-8308-aead5cb3dbac}</destination>
             <destination>{3c5cda62-59bb-4cde-a42e-7517139e941a}</destination>
             <destination>{2b2daa4d-0a11-4245-b50d-6a386743c0c7}</destination>
         </relationship>
@@ -530,6 +531,26 @@
         </property>
         <property name="value">
             <value>0</value>
+        </property>
+    </object>
+    <object class="MultibandEqEffect" id="{ecff8e46-6bc8-4d0e-8308-aead5cb3dbac}">
+        <property name="filterTypeB">
+            <value>9</value>
+        </property>
+        <property name="filterTypeC">
+            <value>9</value>
+        </property>
+        <property name="frequencyA">
+            <value>17157.1074</value>
+        </property>
+        <property name="frequencyB">
+            <value>1003.89966</value>
+        </property>
+        <property name="qualityA">
+            <value>0.413965493</value>
+        </property>
+        <property name="gainB">
+            <value>-11</value>
         </property>
     </object>
     <object class="SFXReverbEffect" id="{3c5cda62-59bb-4cde-a42e-7517139e941a}">

@@ -223,7 +223,7 @@
     </object>
     <object class="EventMixerGroup" id="{730a024d-7743-46f5-95f1-7092d88afeb1}">
         <property name="volume">
-            <value>-40</value>
+            <value>-36</value>
         </property>
         <property name="name">
             <value>Audio 1</value>
@@ -534,14 +534,23 @@
         </property>
     </object>
     <object class="MultibandEqEffect" id="{e299fe1c-5c87-4fba-bb9c-9126d1c02f4c}">
+        <property name="filterTypeB">
+            <value>9</value>
+        </property>
         <property name="filterTypeC">
             <value>9</value>
         </property>
         <property name="frequencyA">
             <value>17157.1074</value>
         </property>
+        <property name="frequencyB">
+            <value>1003.89966</value>
+        </property>
         <property name="qualityA">
             <value>0.413965493</value>
+        </property>
+        <property name="gainB">
+            <value>-11</value>
         </property>
     </object>
     <object class="SFXReverbEffect" id="{cbbac110-a221-47d5-89b4-57ef7e25aaa7}">
