@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{43b56322-75a0-4d6c-9b77-3a3d9c40f369}">
+        <property name="assetPath">
+            <value>industry_oneshot0.ogg</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>8.5</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{cb3a16b5-5513-4463-ae60-50ea0037a9aa}</destination>
+        </relationship>
+    </object>
+</objects>
