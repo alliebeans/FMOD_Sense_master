@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{f40739d8-a569-4489-9059-28dc3dc13258}">
+        <property name="assetPath">
+            <value>fotsteg4.ogg</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.82772916666666663</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{cb3a16b5-5513-4463-ae60-50ea0037a9aa}</destination>
+        </relationship>
+    </object>
+</objects>
