@@ -217,7 +217,7 @@
     </object>
     <object class="EventMixerGroup" id="{71660bf1-5e41-4d5a-9dc5-5f444f70271b}">
         <property name="volume">
-            <value>-35</value>
+            <value>-29</value>
         </property>
         <property name="name">
             <value>Audio 2</value>
@@ -319,6 +319,7 @@
     </object>
     <object class="MixerBusEffectChain" id="{e87cdead-eb1a-4414-9bfc-13edf13543ae}">
         <relationship name="effects">
+            <destination>{3555de5f-e929-4fb2-9547-aa1234efa2e2}</destination>
             <destination>{6899b9c8-215a-4d3a-a600-9aec1bcf319d}</destination>
         </relationship>
     </object>
@@ -463,6 +464,26 @@
         </property>
         <property name="gainC">
             <value>-26.8965511</value>
+        </property>
+    </object>
+    <object class="SFXReverbEffect" id="{3555de5f-e929-4fb2-9547-aa1234efa2e2}">
+        <property name="decayTime">
+            <value>270</value>
+        </property>
+        <property name="earlyDelay">
+            <value>11.5</value>
+        </property>
+        <property name="lateDelay">
+            <value>23.5</value>
+        </property>
+        <property name="diffusion">
+            <value>15.5</value>
+        </property>
+        <property name="lowShelfGain">
+            <value>-24</value>
+        </property>
+        <property name="wetLevel">
+            <value>-22.5</value>
         </property>
     </object>
     <object class="MixerBusFader" id="{6899b9c8-215a-4d3a-a600-9aec1bcf319d}"/>
