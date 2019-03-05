@@ -272,7 +272,6 @@
             <destination>{13380f53-27e7-462f-9d9e-9d2023189fa4}</destination>
         </relationship>
         <relationship name="sounds">
-            <destination>{02717319-b416-4e13-b3c5-1fb70cdb1d8e}</destination>
             <destination>{00a123e7-5a7d-44cd-ad14-7a0067b83627}</destination>
             <destination>{af304a4e-57e8-48c8-99c8-6cec9602e54b}</destination>
             <destination>{82d2ba09-baca-447c-8450-8b46566edfb5}</destination>
@@ -281,7 +280,7 @@
     </object>
     <object class="EventMixerGroup" id="{a296a367-0cef-48fb-9aef-44c17b2b2057}">
         <property name="volume">
-            <value>-37</value>
+            <value>-34</value>
         </property>
         <property name="name">
             <value>Audio 1 (3)</value>
@@ -420,11 +419,6 @@
             <destination>{7a1da734-15d3-4163-8564-99d862ff6ae6}</destination>
         </relationship>
     </object>
-    <object class="SingleSound" id="{02717319-b416-4e13-b3c5-1fb70cdb1d8e}">
-        <relationship name="audioFile">
-            <destination>{2b290027-6f1b-421b-be45-c784b5b8437b}</destination>
-        </relationship>
-    </object>
     <object class="SingleSound" id="{00a123e7-5a7d-44cd-ad14-7a0067b83627}">
         <relationship name="audioFile">
             <destination>{06c7103d-f3fb-48c3-8631-6d987496db89}</destination>
@@ -500,13 +494,13 @@
             <value>9</value>
         </property>
         <property name="frequencyA">
-            <value>314.623352</value>
+            <value>266.566376</value>
         </property>
         <property name="frequencyC">
             <value>1488.18237</value>
         </property>
         <property name="qualityA">
-            <value>0.602344871</value>
+            <value>1.46496558</value>
         </property>
         <property name="gainC">
             <value>0.5</value>
