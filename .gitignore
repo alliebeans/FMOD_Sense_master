@@ -41,12 +41,6 @@ sysinfo.txt
 *.unitypackage
 
 
-# FMOD
-Assets/FMODStudioCache.asset
-Assets/StreamingAssets/*.bank
-fmod.log
-fmod_editor.log
-
 # FMOD studio (In folder FMOD)
 /FMOD_Sense_project/**.user
 /FMOD_Sense_project/**.unsaved
