@@ -75,6 +75,9 @@
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{90dcfd11-3f1a-4f5b-80e1-64896fdb7f24}">
+        <property name="volume">
+            <value>-6.5</value>
+        </property>
         <relationship name="effectChain">
             <destination>{66f12419-ce86-4627-a777-9321ed739f85}</destination>
         </relationship>
@@ -108,10 +111,11 @@
             <value>false</value>
         </property>
         <property name="playlistMode">
-            <value>1</value>
+            <value>3</value>
         </property>
         <relationship name="modulators">
             <destination>{26f7df2d-c576-4817-8da3-b3f674a59ca4}</destination>
+            <destination>{2cbff3eb-7f2a-4d1e-b70a-beb42a919e03}</destination>
         </relationship>
         <relationship name="sounds">
             <destination>{b9387f13-b0f0-4545-b650-7d29f1294439}</destination>
@@ -120,7 +124,7 @@
     </object>
     <object class="EventMixerGroup" id="{9b77bbca-3baa-4af8-8435-703d2dee3af7}">
         <property name="volume">
-            <value>-22.5</value>
+            <value>-14</value>
         </property>
         <property name="name">
             <value>Audio 1</value>
@@ -160,6 +164,14 @@
         </property>
         <property name="amount">
             <value>100</value>
+        </property>
+    </object>
+    <object class="RandomizerModulator" id="{2cbff3eb-7f2a-4d1e-b70a-beb42a919e03}">
+        <property name="nameOfPropertyBeingModulated">
+            <value>pitch</value>
+        </property>
+        <property name="amount">
+            <value>4</value>
         </property>
     </object>
     <object class="SingleSound" id="{b9387f13-b0f0-4545-b650-7d29f1294439}">

@@ -53,7 +53,7 @@
             <destination>{3d1003f0-2f2f-483e-8837-d1d6848f5514}</destination>
         </relationship>
         <relationship name="output">
-            <destination>{89b519fa-f2c2-41f6-bb8e-af2de92fbbd1}</destination>
+            <destination>{0d2e8b33-b4bc-4647-a031-6a3506147087}</destination>
         </relationship>
     </object>
     <object class="EventAutomatableProperties" id="{d608fe55-26fb-4fd8-bcd3-a61aaa3e523c}"/>
@@ -78,6 +78,9 @@
         <property name="volume">
             <value>-13</value>
         </property>
+        <relationship name="modulators">
+            <destination>{decd4888-417b-49b1-bfa4-ddfdf7f9624a}</destination>
+        </relationship>
         <relationship name="effectChain">
             <destination>{897eb3f0-7346-4f0e-95d0-360219727c27}</destination>
         </relationship>
@@ -108,7 +111,7 @@
     </object>
     <object class="EventMixerGroup" id="{1560f8e1-e6f0-4cb3-b74f-4eeb594498cf}">
         <property name="volume">
-            <value>-26</value>
+            <value>-5</value>
         </property>
         <property name="name">
             <value>Audio 1</value>
@@ -134,6 +137,17 @@
             <destination>{c006d853-dd52-4092-a2b0-785abe2b531e}</destination>
         </relationship>
     </object>
+    <object class="ADSRModulator" id="{decd4888-417b-49b1-bfa4-ddfdf7f9624a}">
+        <property name="nameOfPropertyBeingModulated">
+            <value>volume</value>
+        </property>
+        <property name="initialValue">
+            <value>-80</value>
+        </property>
+        <property name="releaseTime">
+            <value>9400</value>
+        </property>
+    </object>
     <object class="MixerBusEffectChain" id="{897eb3f0-7346-4f0e-95d0-360219727c27}">
         <relationship name="effects">
             <destination>{c1e0bfd4-30ae-412a-93eb-70f97614adc2}</destination>
@@ -141,7 +155,11 @@
             <destination>{e44850fd-d354-4c1e-86c2-b2dd1b8315a2}</destination>
         </relationship>
     </object>
-    <object class="MixerBusPanner" id="{33448b73-e8ff-4e8a-a68f-7228e3168ab0}"/>
+    <object class="MixerBusPanner" id="{33448b73-e8ff-4e8a-a68f-7228e3168ab0}">
+        <property name="stereoPan">
+            <value>-40</value>
+        </property>
+    </object>
     <object class="MixerBusFader" id="{8641c487-5704-451a-a5cd-bee0ff5be200}"/>
     <object class="SingleSound" id="{3ba491f9-1074-43e5-afa9-1fa97fc8f63c}">
         <property name="looping">
@@ -161,6 +179,7 @@
     </object>
     <object class="MixerBusEffectChain" id="{e548fc8a-35fc-4889-9587-447d58bc37af}">
         <relationship name="effects">
+            <destination>{b00a606c-45eb-45ee-9533-8d209195754e}</destination>
             <destination>{97c1b375-b357-452c-ba35-de19949a710c}</destination>
         </relationship>
     </object>
@@ -173,7 +192,10 @@
             <value>5</value>
         </property>
         <property name="level">
-            <value>-19.5</value>
+            <value>-4</value>
+        </property>
+        <property name="dryLevel">
+            <value>-6.5</value>
         </property>
     </object>
     <object class="SFXReverbEffect" id="{b632e6bf-1b90-466c-af28-9351997067bf}">
@@ -203,5 +225,25 @@
         </property>
     </object>
     <object class="MixerBusFader" id="{e44850fd-d354-4c1e-86c2-b2dd1b8315a2}"/>
+    <object class="MultibandEqEffect" id="{b00a606c-45eb-45ee-9533-8d209195754e}">
+        <property name="filterTypeC">
+            <value>9</value>
+        </property>
+        <property name="frequencyA">
+            <value>9215.05566</value>
+        </property>
+        <property name="frequencyC">
+            <value>4748.48975</value>
+        </property>
+        <property name="qualityA">
+            <value>0.434896529</value>
+        </property>
+        <property name="qualityC">
+            <value>9.80000019</value>
+        </property>
+        <property name="gainC">
+            <value>-6</value>
+        </property>
+    </object>
     <object class="MixerBusFader" id="{97c1b375-b357-452c-ba35-de19949a710c}"/>
 </objects>

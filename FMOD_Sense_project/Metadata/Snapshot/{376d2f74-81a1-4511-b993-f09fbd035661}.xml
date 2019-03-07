@@ -45,7 +45,11 @@
             <destination>{72e56f45-288f-4026-b7c0-02d23c2acf39}</destination>
         </relationship>
     </object>
-    <object class="EventAutomatableProperties" id="{73a29368-a4a8-4279-94ed-4867140a8841}"/>
+    <object class="EventAutomatableProperties" id="{73a29368-a4a8-4279-94ed-4867140a8841}">
+        <relationship name="modulators">
+            <destination>{7c7f0749-ad44-4fd3-82a6-14d0e3e0efec}</destination>
+        </relationship>
+    </object>
     <object class="MarkerTrack" id="{a8bc1d5b-54a0-4fb3-8b4a-f10274e7fca2}"/>
     <object class="Timeline" id="{f649493c-e7a1-422a-89b9-a8132416dc7c}"/>
     <object class="SnapshotMasterTrack" id="{49a32a11-9034-4916-b5bc-cf1271f98f9e}"/>
@@ -65,7 +69,7 @@
             <value>decayTime</value>
         </property>
         <property name="value">
-            <value>3300</value>
+            <value>4300</value>
         </property>
         <relationship name="automatableObject">
             <destination>{3e861b00-263b-4bd0-a2d5-f1faf7766e6a}</destination>
@@ -87,7 +91,7 @@
             <value>level</value>
         </property>
         <property name="value">
-            <value>0</value>
+            <value>-8.5</value>
         </property>
         <relationship name="automatableObject">
             <destination>{242a13be-830c-40ef-8c87-c3cd04979a75}</destination>
@@ -98,7 +102,7 @@
             <value>level</value>
         </property>
         <property name="value">
-            <value>-7.5</value>
+            <value>-13.5</value>
         </property>
         <relationship name="automatableObject">
             <destination>{067d1498-3cfd-4833-9f02-d5be7c7f7cae}</destination>
@@ -109,7 +113,7 @@
             <value>level</value>
         </property>
         <property name="value">
-            <value>-33</value>
+            <value>-13.5</value>
         </property>
         <relationship name="automatableObject">
             <destination>{bddfd0d5-1952-492d-9c05-61802d24f0ac}</destination>
@@ -142,7 +146,7 @@
             <value>lateDelay</value>
         </property>
         <property name="value">
-            <value>34</value>
+            <value>45</value>
         </property>
         <relationship name="automatableObject">
             <destination>{3e861b00-263b-4bd0-a2d5-f1faf7766e6a}</destination>
@@ -255,5 +259,25 @@
         <relationship name="mixerStrip">
             <destination>{0d2e8b33-b4bc-4647-a031-6a3506147087}</destination>
         </relationship>
+    </object>
+    <object class="ADSRModulator" id="{7c7f0749-ad44-4fd3-82a6-14d0e3e0efec}">
+        <property name="nameOfPropertyBeingModulated">
+            <value>snapshotIntensity</value>
+        </property>
+        <property name="attackTime">
+            <value>280</value>
+        </property>
+        <property name="peakValue">
+            <value>100</value>
+        </property>
+        <property name="sustainValue">
+            <value>100</value>
+        </property>
+        <property name="releaseTime">
+            <value>360</value>
+        </property>
+        <property name="releaseShape">
+            <value>0.259137183</value>
+        </property>
     </object>
 </objects>

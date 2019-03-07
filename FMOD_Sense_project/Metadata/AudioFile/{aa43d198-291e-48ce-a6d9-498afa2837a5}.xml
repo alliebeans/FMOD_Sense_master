@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{aa43d198-291e-48ce-a6d9-498afa2837a5}">
+        <property name="assetPath">
+            <value>vind3_botten_loop0.ogg</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>37.5</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{cb3a16b5-5513-4463-ae60-50ea0037a9aa}</destination>
+        </relationship>
+    </object>
+</objects>
