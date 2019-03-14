@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="EventFolder" id="{8dc04d21-d544-4855-b489-39c69573d85f}">
+        <property name="name">
+            <value>Popup</value>
+        </property>
+        <relationship name="folder">
+            <destination>{b8f6b6ff-5253-473a-bb5e-e64cca5694ec}</destination>
+        </relationship>
+    </object>
+</objects>
