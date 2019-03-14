@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="MixerGroup" id="{40b15793-28ea-4c3e-b7a6-b0192ebc062b}">
+        <property name="name">
+            <value>Cutscene</value>
+        </property>
+        <relationship name="effectChain">
+            <destination>{c3291db5-c97b-45b5-89b9-4a1623a48889}</destination>
+        </relationship>
+        <relationship name="panner">
+            <destination>{efc3db06-3cc8-4dfc-ba19-e4f66c0592b2}</destination>
+        </relationship>
+        <relationship name="output">
+            <destination>{89b519fa-f2c2-41f6-bb8e-af2de92fbbd1}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{c3291db5-c97b-45b5-89b9-4a1623a48889}">
+        <relationship name="effects">
+            <destination>{2b9d0ece-4653-4541-b06b-05d55cc624f8}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusPanner" id="{efc3db06-3cc8-4dfc-ba19-e4f66c0592b2}"/>
+    <object class="MixerBusFader" id="{2b9d0ece-4653-4541-b06b-05d55cc624f8}"/>
+</objects>

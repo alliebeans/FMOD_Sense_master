@@ -99,7 +99,7 @@
             <value>true</value>
         </property>
         <property name="triggerProbability">
-            <value>41.5</value>
+            <value>36.5</value>
         </property>
         <property name="isAsync">
             <value>true</value>
@@ -109,9 +109,6 @@
         </property>
         <property name="pitch">
             <value>-3.79999995</value>
-        </property>
-        <property name="looping">
-            <value>true</value>
         </property>
         <property name="playlistMode">
             <value>0</value>

@@ -97,7 +97,7 @@
     </object>
     <object class="EventMixerMaster" id="{1b856d69-eadc-49d9-8bfe-d107f9c6a5ec}">
         <property name="volume">
-            <value>-5.5</value>
+            <value>-10</value>
         </property>
         <relationship name="modulators">
             <destination>{722e6fab-8a27-49f6-bbaf-f2a3d001f208}</destination>
@@ -126,7 +126,7 @@
             <value>37.5</value>
         </property>
         <property name="startOffset">
-            <value>66</value>
+            <value>60</value>
         </property>
         <property name="looping">
             <value>true</value>
@@ -139,6 +139,9 @@
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{1778f3a3-115a-432f-bcdc-110e5181a2b7}">
+        <property name="volume">
+            <value>-5.5</value>
+        </property>
         <property name="name">
             <value>Audio 4</value>
         </property>
@@ -160,7 +163,7 @@
             <value>37.5</value>
         </property>
         <property name="startOffset">
-            <value>58.5</value>
+            <value>60</value>
         </property>
         <property name="looping">
             <value>true</value>
@@ -174,7 +177,7 @@
     </object>
     <object class="EventMixerGroup" id="{533baa24-9c03-4974-a1ae-f8f689c77594}">
         <property name="volume">
-            <value>-5.5</value>
+            <value>-3</value>
         </property>
         <property name="name">
             <value>Audio 1</value>
@@ -288,9 +291,6 @@
         <property name="nameOfPropertyBeingModulated">
             <value>startOffset</value>
         </property>
-        <property name="amount">
-            <value>24</value>
-        </property>
     </object>
     <object class="MixerBusEffectChain" id="{a2e97b28-68ea-4945-a7a5-2f59c76a63fc}">
         <relationship name="effects">
@@ -308,9 +308,6 @@
     <object class="RandomizerModulator" id="{ade10b97-e2f7-460e-9848-55bd015b11f4}">
         <property name="nameOfPropertyBeingModulated">
             <value>startOffset</value>
-        </property>
-        <property name="amount">
-            <value>26.5</value>
         </property>
     </object>
     <object class="MixerBusEffectChain" id="{2c1c55dc-33bb-4d28-8e9f-91aca2681791}">

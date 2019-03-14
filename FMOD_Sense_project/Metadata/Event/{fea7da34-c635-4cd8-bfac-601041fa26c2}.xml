@@ -107,7 +107,7 @@
             <value>-19</value>
         </property>
         <property name="pitch">
-            <value>-2.4000001</value>
+            <value>-7</value>
         </property>
         <relationship name="fadeInCurve">
             <destination>{53ebb038-7071-4067-8c61-f98cecf2eb00}</destination>
@@ -161,6 +161,7 @@
     </object>
     <object class="MixerBusEffectChain" id="{40be7222-3cae-4ef3-8b4d-f20ca9ebbd62}">
         <relationship name="effects">
+            <destination>{84804d68-78bd-4fd9-821a-ef303a254c33}</destination>
             <destination>{8314a909-b31b-4a5c-9405-12436059f8ff}</destination>
             <destination>{ab74c59b-a80d-4165-a6a8-76c9671a5c8a}</destination>
         </relationship>
@@ -188,6 +189,14 @@
         </property>
         <property name="value">
             <value>1</value>
+        </property>
+    </object>
+    <object class="MultibandEqEffect" id="{84804d68-78bd-4fd9-821a-ef303a254c33}">
+        <property name="frequencyA">
+            <value>5266.79639</value>
+        </property>
+        <property name="qualityA">
+            <value>0.476758599</value>
         </property>
     </object>
     <object class="MixerBusFader" id="{8314a909-b31b-4a5c-9405-12436059f8ff}"/>
