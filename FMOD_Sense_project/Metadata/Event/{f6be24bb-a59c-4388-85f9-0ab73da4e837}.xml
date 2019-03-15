@@ -1117,7 +1117,7 @@
     </object>
     <object class="GainEffect" id="{c7e745d9-2426-4355-a421-29a098466927}">
         <property name="gain">
-            <value>8</value>
+            <value>10</value>
         </property>
     </object>
     <object class="MixerBusFader" id="{28faf57d-515f-440c-aa02-6b492cdd60d2}"/>
@@ -1675,6 +1675,9 @@
         <property name="filterTypeD">
             <value>9</value>
         </property>
+        <property name="filterTypeE">
+            <value>1</value>
+        </property>
         <property name="frequencyA">
             <value>129.082764</value>
         </property>
@@ -1687,6 +1690,9 @@
         <property name="frequencyD">
             <value>3859.8772</value>
         </property>
+        <property name="frequencyE">
+            <value>5158.79541</value>
+        </property>
         <property name="qualityA">
             <value>0.351172417</value>
         </property>
@@ -1695,6 +1701,9 @@
         </property>
         <property name="qualityD">
             <value>1.19999993</value>
+        </property>
+        <property name="qualityE">
+            <value>0.518620729</value>
         </property>
         <property name="gainB">
             <value>-0.517240524</value>
@@ -1794,7 +1803,7 @@
             <value>0.27891714520098443</value>
         </property>
         <property name="value">
-            <value>3.81469727e-06</value>
+            <value>6</value>
         </property>
         <property name="curveShape">
             <value>0.210193038</value>
