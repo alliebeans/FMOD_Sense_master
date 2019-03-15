@@ -324,10 +324,10 @@
             <value>4</value>
         </property>
         <property name="frequencyA">
-            <value>48.7475433</value>
+            <value>29.0400715</value>
         </property>
         <property name="qualityA">
-            <value>0.1627931</value>
+            <value>0.183724135</value>
         </property>
     </object>
     <object class="MixerBusFader" id="{cfd474a6-ab37-47be-bbab-1b75d08ee38b}"/>
